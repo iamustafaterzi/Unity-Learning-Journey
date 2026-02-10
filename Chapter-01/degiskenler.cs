@@ -4,34 +4,34 @@ using UnityEngine;
 public class degiskenler1 : MonoBehaviour
 {
     /*
-     string  // metinsel verileri içerir.
-     int     // sayısal değerleri 
-     float   // kayan sayıları 3.1012
-     double  // daha büyük kayan sayılar 3.1234234
-     Boolean // herhangi bir şeyin aktif veya pasif olmasını kontrol eder. true / false 
+     string  // metinsel verileri iÃ§erir.
+     int     // sayÄ±sal deÄŸerleri 
+     float   // kayan sayÄ±larÄ± 3.1012
+     double  // daha bÃ¼yÃ¼k kayan sayÄ±lar 3.1234234
+     Boolean // herhangi bir ÅŸeyin aktif veya pasif olmasÄ±nÄ± kontrol eder. true / false 
 
             */
 
     /*
-        // class içerisinde değer tanımlama
+        // class iÃ§erisinde deÄŸer tanÄ±mlama
         string metnim = "Merhaba Mustafa";
         int yas = 80;
         float kusurat = 3.10f;
         double kusurat2 = 3.21212;
         bool acikmi = false;
-        // class içerisinde değer tanımlama
+        // class iÃ§erisinde deÄŸer tanÄ±mlama
         */
-    // sadece değişkenlerin isimlerini ve türlerini belirliyorum
+    // sadece deÄŸiÅŸkenlerin isimlerini ve tÃ¼rlerini belirliyorum
     string metnim;
     int yas;
     float kusurat;
     double kusurat2;
     bool acikmi;
-    // sadece değişkenlerin isimlerini ve türlerini belirliyorum
+    // sadece deÄŸiÅŸkenlerin isimlerini ve tÃ¼rlerini belirliyorum
 
     void Start()
     {
-        // işlemler yaptım sorgular yaptım ve değişkenin değeri şu an oluştu
+        // iÅŸlemler yaptÄ±m sorgular yaptÄ±m ve deÄŸiÅŸkenin deÄŸeri ÅŸu an oluÅŸtu
 
         metnim = "icerde";
 
@@ -43,3 +43,4 @@ public class degiskenler1 : MonoBehaviour
     }
 
 }
+
