@@ -3,14 +3,14 @@ using UnityEngine;
 public class ifelsedersi : MonoBehaviour
 {
 
-    /* karşılaştırma operatörleri
+    /* karÅŸÄ±laÅŸtÄ±rma operatÃ¶rleri
                 
-         < küçükse
-         > büyükse
-         >= büyükse ve eşitse
-         <= küçükse ve eşitse
-         == eşitse
-         != eşit değise
+         < kÃ¼Ã§Ã¼kse
+         > bÃ¼yÃ¼kse
+         >= bÃ¼yÃ¼kse ve eÅŸitse
+         <= kÃ¼Ã§Ã¼kse ve eÅŸitse
+         == eÅŸitse
+         != eÅŸit deÄŸise
 
     *
     * */
@@ -27,10 +27,10 @@ public class ifelsedersi : MonoBehaviour
     string ad2 = "ahmet";
     bool kapiacikmi = false;
 
-    /* mantıksal operatörler
-           not işaretei => ! (ifade true ise false, false ise true yapar)
-           and işareti =>  &&
-           or işareti =>  ||
+    /* mantÄ±ksal operatÃ¶rler
+           not iÅŸaretei => ! (ifade true ise false, false ise true yapar)
+           and iÅŸareti =>  &&
+           or iÅŸareti =>  ||
 
            
            * */
@@ -39,11 +39,11 @@ public class ifelsedersi : MonoBehaviour
     {
         /*
         if(sayi1 < sayi2)
-            Debug.Log("koşul sağlandı");
+            Debug.Log("koÅŸul saÄŸlandÄ±");
         else if (sayi1 < sayi2)
-            Debug.Log("koşul sağlandı");
+            Debug.Log("koÅŸul saÄŸlandÄ±");
         else
-            Debug.Log("koşul sağlanmadı");
+            Debug.Log("koÅŸul saÄŸlanmadÄ±");
 
         */
 
@@ -51,32 +51,32 @@ public class ifelsedersi : MonoBehaviour
 
         if (!kapiacikmi)
                 {
-                    Debug.Log("değişken not ile değiştirildi");
+                    Debug.Log("deÄŸiÅŸken not ile deÄŸiÅŸtirildi");
                 }
                 else
                 {
-                    Debug.Log("değişken false");
+                    Debug.Log("deÄŸiÅŸken false");
 
                 }
 
         if (sayi1 < sayi2 || sayi1 < sayi3 || sayi1 < sayi4)
         {
-            Debug.Log("1. Koşul");
+            Debug.Log("1. KoÅŸul");
 
         }
         else if (sayi1 < sayi4)
         {
-            Debug.Log("3. Koşul");
+            Debug.Log("3. KoÅŸul");
 
         }
         else if (ad1 == ad2)
         {
-            Debug.Log("4. Koşul");
+            Debug.Log("4. KoÅŸul");
 
         }
         else
         {
-            Debug.Log("Hayır Değil");
+            Debug.Log("HayÄ±r DeÄŸil");
         }
         */
         
@@ -98,3 +98,4 @@ public class ifelsedersi : MonoBehaviour
 
 
 }
+
